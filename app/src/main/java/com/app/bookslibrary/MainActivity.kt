@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
             if (book != null) {
                 books.add(book)
             }
-            Log.d("book : ", book.toString())
+            Log.d("book : --->", book.toString())
 
         }
         return books
